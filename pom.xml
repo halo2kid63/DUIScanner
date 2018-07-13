@@ -6,7 +6,7 @@
 	<groupId>com.duiscan.core</groupId>
 	<artifactId>DUIBackEndService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>DUIBackEndService</name>
 	<description>DUI Scan Data Service</description>
