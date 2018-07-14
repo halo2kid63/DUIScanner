@@ -15,7 +15,7 @@ public class DUIScannerRest {
 	@GetMapping("/listAll")
 	public List<DUICheckPoint> listAll() throws IOException {
 		try {
-			return DUIDataExtractor.processScan("http://www.duiblock.com/dui_checkpoint_locations/california/?page=", 2);
+			return DUIDataExtractor.processScan("http://www.duiblock.com/dui_checkpoint_locations/california/?page=", 3);
 		} catch (IOException e) {
 			e.printStackTrace();
 			throw e;
